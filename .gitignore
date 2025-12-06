@@ -212,3 +212,10 @@ data/raw/*.jsonl
 data/processed/*.csv
 data/embeddings/*.npy
 *.npy
+
+# Project-specific large files
+notebooks/data/
+notebooks/models/
+*.keras
+*.h5
+*.html
