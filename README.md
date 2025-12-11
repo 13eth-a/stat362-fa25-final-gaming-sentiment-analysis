@@ -13,7 +13,7 @@ This project implements and compares various machine learning approaches for sen
 
 ## Dataset
 
-- **Source**: Amazon Video Game Reviews (150K samples)
+- **Source**: [Amazon Video Game Reviews](https://amazon-reviews-2023.github.io) (150K samples)
 - **Classes**: 3-class sentiment (Negative, Neutral, Positive)
 - **Features**: Review text, ratings, user information, timestamps
 - **Split**: 80% Train / 10% Validation / 10% Test
@@ -71,7 +71,7 @@ pip install -r requirements.txt     # Install exact versions from requirements
 ```
 
 3. Download the dataset:
-   - Place the Amazon Video Games dataset (`Video_Games.jsonl.gz`) in `data/raw/`
+   - Place the [Amazon Video Games dataset](https://amazon-reviews-2023.github.io) (`Video_Games.jsonl.gz`) in `data/raw/`
 
 ### Usage
 
@@ -205,7 +205,7 @@ This project is for educational purposes as part of STAT 362 coursework.
 
 ## Acknowledgments
 
-- Amazon Customer Reviews Dataset
+- [Amazon Customer Reviews Dataset](https://amazon-reviews-2023.github.io)
 - HuggingFace Transformers library
 - Google Colab for computational resources
 - STAT 362 course materials and guidance
